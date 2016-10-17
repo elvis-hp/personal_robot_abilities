@@ -2,7 +2,7 @@
 from sdk import send_json
 import json
 
-data_send = {"action": "t2s", "text": "hello world"}
+data_send = {"text": "hello world"}
 
 #send data to brain:
 package = {"type": "t2s", "data": json.dumps(data_send), "source": "", "protocol": ""}
